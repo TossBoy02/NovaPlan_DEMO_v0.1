@@ -1,0 +1,5 @@
+"""
+Builds a semantic index of skills & career patterns using sentence-transformers + FAISS.
+Provides functions to build, save, load the index and to query for nearest skills/careers.
+"""
+

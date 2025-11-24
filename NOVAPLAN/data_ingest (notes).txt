@@ -1,0 +1,28 @@
+"""
+Helpers to download & parse O*NET and ESCO datasets.
+This module does NOT automatically download large datasets without user consent.
+It provides functions and examples to download O*NET zip from onetcenter or Kaggle mirror and ESCO CSV/TTL from ESCO site.
+"""
+
+    """Manual helper: place the O*NET zip in data/ and call this to extract.
+    Automated download may require developer registration; use Kaggle mirror or manual download.
+    """
+
+        """Parse ONET core skills file (example: Skills.csv) into a DataFrame of skill terms.
+    Adjust filename depending on the O*NET release.
+    """
+
+        """Manual helper: instruct user to download ESCO CSV package and place in data/esco
+    Optionally the user can programmatically download if they know the exact package URL.
+    """
+
+        """Load ESCO occupations, skills and their relations.
+    Returns mapping of occupation_label -> {skills: [skill_labels], alt_labels: [...]}.
+    """
+
+        """Load O*NET skill names and task statements for occupations where available.
+    The provided dataset in this project root contains many .txt files; we parse a subset.
+    Returns mapping of occupation title -> {skills: [...], tasks: [...]}.
+    """
+
+    

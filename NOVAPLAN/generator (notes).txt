@@ -1,0 +1,6 @@
+"""
+Core generator that uses embeddings + FAISS for robust matching and produces 3 distinct roadmaps per chosen career.
+Exports generate_roadmaps_for_user(user_input) which returns a dict serializable to JSON.
+"""
+
+# We'll load CAREER_DATASET from a local curated JSON if present; otherwise derive from ESCO/O*NET
